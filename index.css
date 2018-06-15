@@ -121,10 +121,33 @@ p.h6{
     .navbar{
         width: 100%;
     }
+    
+    .subheading1{
+        width: 100%;
+        float: right;
+    }
+    ul{
+        list-style: none;
+        background-color: #292421;
+        border-color: white;
+        text-align: center;
+    }
+    a{
+        color: white;
+        text-decoration:none;
+    }
+    div .menuwidth{
+        width: 100%;
+    }
+    .subheading hr{
+        color: white;
+    }
+
+   
     .icon{
         display: inline;
         position: absolute;
-        right: 0;
+        right: 45;
         top: 0;
         
     }
