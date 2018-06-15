@@ -28,7 +28,10 @@ body{
 }
 .subheading1{
     display: none;
+    color: white;
+    list-style:none;
 }
+
 .heading{
     margin-left: 10px; 
     font-family: arial;
@@ -95,6 +98,7 @@ p.h6{
     margin-top: 10px;
     height: 10%;
     width: 99%;
+    clear: both;
 }
 .footer{
     width:100%;
@@ -125,16 +129,31 @@ p.h6{
     .subheading1{
         width: 100%;
         float: right;
+        position: absolute;
+        z-index: 999;
     }
     ul{
         list-style: none;
         background-color: #292421;
-        border-color: white;
+        /* border-color: white; */
         text-align: center;
+        margin: 0 auto;
+        margin-top: 0.5px;
+        padding-top: 15px;
+        font-size: 13px;
+        padding-left: 15%;
+        padding-bottom: 15px;
+    }
+    li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* margin-left: -10px; */
     }
     a{
         color: white;
         text-decoration:none;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
     }
     div .menuwidth{
         width: 100%;
@@ -162,6 +181,9 @@ p.h6{
         div.icon {
           display: none;
         }
+        .subheading1{
+            display: none !important;
+        }
         .navbar{
             width: 100%;
         }
@@ -186,6 +208,7 @@ p.h6{
         div .subheading{
             display: inline;
         }
+        
         .navbar{
             width: 100%;
         }
